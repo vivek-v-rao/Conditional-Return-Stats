@@ -1,5 +1,6 @@
 # Conditional-Return-Stats
-Study return statistics conditional on the level of an indicator such as VIX
+Study return statistics conditional on the level of an indicator such as VIX. The output of<br> 
+`python xreturn_stats_univariate.py` is below. `^GSPC` is the symbol for the S&P 500 index on Yahoo Finance, the source of the data. GSPC returns above 2.5% happen 8.26% of the time when VIX >= 25 but only 0.28% of the time otherwise, a ratio of about 30.
 
 ```
                           time: 2026-04-05 19:58
